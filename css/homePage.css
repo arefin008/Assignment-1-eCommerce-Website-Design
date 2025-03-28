@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  max-width: 1440vw;
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  text-align: center;
+  /* background-color: #ffffff; */
+}
+ul {
+  display: flex;
+}
+ul li {
+  margin-top: 10px;
+  list-style: none;
+  margin-left: 2.5rem;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.icon {
+  margin-top: 10px;
+}
+.icon img {
+  margin-left: 40px;
+  height: 26px;
+  width: 26px;
+}
+
+/* hero-section */
+.hero-section {
+  position: relative;
+}
+.hero-container {
+  width: 547px;
+  /* min-width: 50vw; */
+  height: 319px;
+  background-color: #fff3e3;
+  padding: 43px 29px;
+  margin-left: 730px;
+  color: #333333;
+  position: absolute;
+  top: 180px;
+  border-radius: 10px;
+}
+.hero-container .para {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 3px;
+}
+.hero-container h1 {
+  width: 459px;
+  height: 134px;
+  font-weight: 700;
+  font-size: 3.25rem;
+  line-height: 65px;
+  letter-spacing: 0px;
+  color: #b88e2f;
+}
+.hero-para {
+  /* width: 546px; */
+  /* height: 52px; */
+  min-width: 50vw;
+  min-width: 40vh;
+
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 60px;
+}
+.hero-container a {
+  /* width: 222px;
+  height: 74px; */
+
+  text-decoration: none;
+  color: #fff;
+  background-color: #b88e2f;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 25px;
+  padding-left: 72px;
+  transition: all 0.2s;
+  /* border: 3px solid #b88e2f; */
+}
+.hero-container a:hover {
+  background-color: transparent;
+  border: 3px solid #b88e2f;
+  color: #b88e2f;
+}
+
+.hero-section::after {
+  content: "";
+  width: 1520px;
+  height: 716px;
+  background-image: url(./../images/HomePage/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+  display: block;
+  /* position: absolute; */
+  /* top: 0px; */
+  /* z-index: -999; */
+}
+
+/* Produscts for or products type  */
+.products-type-container {
+  max-width: 1183vw;
+  max-height: 685vh;
+  margin: 3.125rem auto;
+}
+.products-type-article {
+  text-align: center;
+}
+.products-type-article h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.products-type-article p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.products-types-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 150px;
+  flex-wrap: wrap;
+}
+.products-types-imgs p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333333;
+}
+
+/* Products  */
+.product-section {
+  width: 1236px;
+  /* height: 1084px; */
+  margin: 20px auto;
+}
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product-section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+.product {
+  width: 285px;
+  height: 446px;
+  background-color: #f4f5f7;
+}
+.products div {
+  flex: 1;
+}
+.product h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+}
+#product-para {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+}
+.product p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+}
+.product p del {
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: line-through;
+}
+.product-section a {
+  padding: 10px 40px;
+  text-decoration: none;
+  border: 1px solid #b88e2f;
+  color: #b88e2f;
+  text-align: center;
+}
+.product-info {
+  padding: 20px;
+}
+
+/* Room-degign/inspiration section  */
+.rooms-design {
+  width: 1440px;
+  /* height: 670px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  background-color: #fcf8f3;
+  padding: 40px 50px;
+  box-sizing: border-box;
+}
+.design-article {
+  width: 422px;
+  height: 151px;
+  margin-top: 172px;
+}
+.design-article h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+
+.design-article p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #616161;
+  margin-bottom: 30px;
+}
+.design-article a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #b88e2f;
+}
+.arrow {
+  position: absolute;
+  right: 120px;
+  top: 2900px;
+}
+.indicator {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/* furnitures */
+.funiro-furnitures {
+  max-width: 1500px;
+  /* height: 780px; */
+  /* min-width: 50vw; */
+  text-align: center;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+.funiro-furnitures p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #616161;
+}
+.funiro-furnitures h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+}
+.furnitures {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.furniture {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.Furniture-5 {
+  width: 295px;
+  height: 392px;
+  margin: 144px 0;
+  margin-right: 52px;
+}
+
+/* horizontal line  */
+.hr {
+  max-width: 1440vw;
+  border: 1px solid #d9d9d9;
+  margin: 80px auto;
+}
+
+/* footer  */
+footer {
+  /* width: 1440px;
+  height: 505px; */
+  min-width: 50px;
+
+  margin-top: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.address {
+  margin-top: 30px;
+}
+
+.funiro-logo p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #9f9f9f;
+}
+.links p {
+  margin-bottom: 40px;
+}
+.help p {
+  margin-bottom: 40px;
+}
+.newsletter p {
+  margin-bottom: 40px;
+}
+
+.links,
+.help,
+.newsletter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.menu-head {
+  color: #9f9f9f;
+}
+.news-para {
+  color: #9f9f9f;
+  margin-right: 10px;
+  padding-right: 15px;
+}
+.subscribe {
+  font-weight: 400;
+}
+.news-para,
+.subscribe {
+  font-weight: 400;
+  font-size: 14px;
+
+  border-bottom: 1px solid #000000;
+}
+hr {
+  margin-left: 7.87rem;
+  margin-right: 7rem;
+}
+.copywrite {
+  margin-top: 20px;
+  margin-left: 128px;
+}
+
+/* media-query */
+@media screen and (max-width: 992px) {
+  .icon {
+    display: none;
+  }
+  .hero-container {
+    max-width: 547vw;
+    max-height: 319vh;
+    margin-left: 60px;
+  }
+  /* .hero-container h1 {
+    max-width: 459vw;
+    max-height: 134vh;
+  } */
+  .typeOfProduct {
+    margin-bottom: 20px;
+  }
+
+  .product-section {
+    margin-left: 80px;
+  }
+  .product-section h2 {
+    margin-right: 500px;
+  }
+  .products {
+    /* flex-direction: column;
+    align-items: center; */
+    width: 600px;
+    flex-wrap: wrap;
+  }
+  .rooms-design {
+    flex-direction: column;
+  }
+  .design-article {
+    margin-top: -20px;
+    margin-bottom: 100px;
+  }
+  .furnitures {
+    flex-wrap: wrap;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    /* margin-right: 800px; */
+  }
+  .country {
+    margin-bottom: 20px;
+  }
+  hr {
+    max-width: 450vw;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  ul li {
+    margin-left: 10px;
+  }
+  .hero-container {
+    margin-left: 0;
+  }
+  .product-section h2 {
+    margin-right: 700px;
+  }
+  .products {
+    width: 250px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+}

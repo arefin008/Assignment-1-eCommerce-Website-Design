@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  max-width: 1440vw;
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  text-align: center;
+}
+ul {
+  display: flex;
+}
+ul li {
+  margin-top: 10px;
+  list-style: none;
+  margin-left: 2.5rem;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.icon {
+  margin-top: 10px;
+}
+.icon img {
+  margin-left: 40px;
+  height: 26px;
+  width: 26px;
+}
+
+/* section  */
+.template {
+  width: 1520px;
+  height: 316px;
+
+  background-image: url(./../images/Cart/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 80px;
+}
+.template p:nth-of-type(1) {
+  padding-top: 50px;
+}
+.template h2 {
+  margin-top: -10px;
+}
+.template h2 {
+  text-align: center;
+}
+.template p {
+  text-align: center;
+}
+
+/* blog-section */
+.blog-posts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-post {
+  width: 817px;
+}
+.blog-meta {
+  display: flex;
+  color: #9f9f9f;
+}
+.blog-meta p {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.blog-meta p span {
+  margin-left: 10px;
+}
+.blog-content h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.blog-content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #9f9f9f;
+  margin-bottom: 20px;
+}
+.blog-content a {
+  text-decoration: none;
+  color: #000000;
+}
+.line {
+  width: 77px;
+  border: 1px solid #000000;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.blog-categories {
+  margin-bottom: 180px;
+}
+.blog-categories h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.blog-categories p {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #9f9f9f;
+}
+.category {
+  width: 251px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.blog-categories input[type="text"] {
+  width: 250px;
+  padding: 15px 16px;
+  border: 1px solid #9f9f9f;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.recent-posts h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.post {
+  display: flex;
+}
+.post p {
+  width: 119px;
+  margin-left: 20px;
+}
+.post p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 14px;
+}
+.post p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9f9f9f;
+}
+.progress-step {
+  display: flex;
+  justify-content: center;
+}
+.progress-step p {
+  background-color: #f9f1e7;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+#step-1 {
+  background-color: #b88e2f;
+  color: #fff;
+}
+
+/* support-section */
+
+.support-section {
+  width: 1350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 80px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #faf3ea;
+}
+.support {
+  display: flex;
+}
+.support div {
+  margin-left: 10px;
+}
+.support h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #242424;
+}
+.support p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+}
+
+/* horizontal line  */
+.hr {
+  max-width: 1440vw;
+  border: 1px solid #d9d9d9;
+  margin: 0px auto;
+}
+
+/* footer  */
+footer {
+  /* width: 1440px;
+            height: 505px; */
+  min-width: 50px;
+
+  margin-top: 40px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.address {
+  margin-top: 30px;
+}
+/* .funiro-logo img {
+  margin-left: 20px;
+} */
+
+.funiro-logo p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #9f9f9f;
+}
+.links p {
+  margin-bottom: 40px;
+}
+.help p {
+  margin-bottom: 40px;
+}
+.newsletter p {
+  margin-bottom: 40px;
+}
+
+.links,
+.help,
+.newsletter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.menu-head {
+  color: #9f9f9f;
+}
+.news-para {
+  color: #9f9f9f;
+  margin-right: 10px;
+  padding-right: 15px;
+}
+.subscribe {
+  font-weight: 400;
+}
+.news-para,
+.subscribe {
+  font-weight: 400;
+  font-size: 14px;
+
+  border-bottom: 1px solid #000000;
+}
+hr {
+  margin-left: 7.87rem;
+  margin-right: 7rem;
+}
+.copywrite {
+  margin-top: 20px;
+  margin-left: 128px;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- raw css  -->
+    <link rel="stylesheet" href="./../css/checkout.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./../images/HomePage/logo.png" alt="logo" />
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="icon">
+          <img
+            class="icon-1"
+            src="./../images/HomePage/Vector.png"
+            alt="vector"
+          />
+          <img src="./../images/HomePage/akar-icons_search.png" alt="search" />
+          <img src="./../images/HomePage/akar-icons_heart.png" alt="heart" />
+          <img
+            src="./../images/HomePage/ant-design_shopping-cart-outlined.png"
+            alt="shop-cart"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <section class="template">
+      <p><img src="./../images/Cart/Meubel House_Logos-05.png" alt="logo" /></p>
+      <h2>Checkout</h2>
+      <p>
+        Home
+        <i class="fa-solid fa-chevron-right"></i>
+        Checkout
+      </p>
+    </section>
+
+    <section class="billing-details">
+      <div class="customer-info">
+        <h2>Billing details</h2>
+        <div class="name">
+          <div class="first-name">
+            <p>First Name</p>
+            <input type="text" name="" id="firstName" />
+          </div>
+          <div class="lastname">
+            <p>Last Name</p>
+            <input type="text" name="" id="lastName" />
+          </div>
+        </div>
+        <div class="company-name">
+          <label for="company_name">Company Name (Optional)</label>
+          <input type="text" name="" id="company_name" />
+        </div>
+        <div class="region">
+          <label for="region">Region</label>
+          <select name="" id="">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Africa">Africa</option>
+          </select>
+        </div>
+        <div class="street-address">
+          <label for="street">Street Address</label>
+          <input type="text" name="" id="street" />
+        </div>
+        <div class="city">
+          <label for="city">Town / City</label>
+          <input type="text" name="" id="city" />
+        </div>
+        <div class="province">
+          <label for="">Province</label>
+          <select name="" id="">
+            <option value="Western Province">Western Province</option>
+            <option value="Eastern Province">Eastern Province</option>
+            <option value="Southest Province">Southest Province</option>
+          </select>
+        </div>
+        <div class="zip-code">
+          <label for="code">ZIP code</label>
+          <input type="text" name="" id="code" />
+        </div>
+        <div class="phone">
+          <label for="phone">Phone</label>
+          <input type="text" name="" id="phone" />
+        </div>
+        <div class="email">
+          <label for="email">Email address</label>
+          <input type="text" name="" id="email" />
+        </div>
+        <div class="additional-info">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Additional information"
+          />
+        </div>
+      </div>
+
+      <div class="final-order">
+        <p class="order-row">Product <span>Subtotal</span></p>
+        <p class="order-row">Asgaard sofa X 1 <span>Rs. 250,000.00</span></p>
+        <p class="order-row">Subtotal <span>Rs. 250,000.00</span></p>
+        <p class="order-row">Total <span>Rs. 250,000.00</span></p>
+        <div class="line"></div>
+        <div class="payment-options">
+          <p>
+            <input type="radio" name="" id="" checked /> Direct Bank Transfer
+          </p>
+
+          <p class="payment-method">
+            Make your payment directly into our bank account. Please use your
+            Order ID as the payment reference. Your order will not be shipped
+            until the funds have cleared in our account.
+          </p>
+          <p class="payment-method">
+            <input type="radio" name="" id="" /> Direct Bank Transfer
+          </p>
+          <p class="payment-method">
+            <input type="radio" name="" id="" /> Cash On Delivery
+          </p>
+          <p>
+            Your personal data will be used to support your experience
+            throughout this website, to manage access to your account, and for
+            other purposes described in ours <strong>privacy policy.</strong>
+          </p>
+        </div>
+        <a href="#">Place Order</a>
+      </div>
+    </section>
+    <section>
+      <div class="support-section">
+        <div class="support">
+          <div>
+            <img
+              src="./../images/Shop Page/high-quality.png"
+              alt="High-Quality"
+            />
+          </div>
+          <div>
+            <h3>High Quality</h3>
+            <p>crafted from top materials</p>
+          </div>
+        </div>
+        <div class="support">
+          <div>
+            <img src="./../images/Shop Page/guarantee.png" alt="High-Quality" />
+          </div>
+          <div>
+            <h3>Warranty Protection</h3>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+        <div class="support">
+          <div>
+            <img src="./../images/Shop Page/shipping.png" alt="High-Quality" />
+          </div>
+          <div>
+            <h3>Free Shipping</h3>
+            <p>Order over 150 $</p>
+          </div>
+        </div>
+        <div class="support">
+          <div>
+            <img
+              src="./../images/Shop Page/customer-support.png"
+              alt="High-Quality"
+            />
+          </div>
+          <div>
+            <h3>24 / 7 Support</h3>
+            <p>Dedicated support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr"></div>
+    <footer>
+      <div class="footer-container">
+        <div class="funiro-logo">
+          <img src="./../images/HomePage/Funiro..png" alt="Footter-logo" />
+          <p class="address">400 University Drive Suite 200 Coral</p>
+          <p>Gables,</p>
+          <p class="country">FL 33134 USA</p>
+        </div>
+
+        <div class="links">
+          <p class="menu-head">Links</p>
+          <p>Home</p>
+          <p>Shop</p>
+          <p>About</p>
+          <p>Contact</p>
+        </div>
+
+        <div class="help">
+          <p class="menu-head">Help</p>
+          <p>Payment Options</p>
+          <p>Returns</p>
+          <p>Privacy Policies</p>
+        </div>
+        <div class="newsletter">
+          <p class="menu-head">Newsletter</p>
+          <p>
+            <span class="news-para"> Enter Your Email Address </span>
+            <span class="subscribe">SUBSCRIBE</span>
+          </p>
+        </div>
+      </div>
+      <hr />
+      <p class="copywrite">2023 furino. All rights reverved</p>
+    </footer>
+  </body>
+</html>
